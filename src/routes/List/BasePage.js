@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react';
 import { connect } from 'dva';
-import PageHeaderLayout from '/layouts/PageHeaderLayout';
+import PageHeaderLayout from '../../layouts/PageHeaderLayout';
 import BaseList from 'components/BaseList';
 
 @connect(state => ({
